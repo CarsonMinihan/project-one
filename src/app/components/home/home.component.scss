@@ -1,4 +1,33 @@
 .header {
     background: rgba(255, 255, 255, 0.80);
+    min-height: 75px;
+    height: auto; 
+}
+// .info-row{
+//     min-height: 315px;
     
+// }
+.button{
+    cursor: pointer;
+}
+.blockScreen {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media (min-width: 992px){
+    .title{
+        text-align: left; 
+        vertical-align: middle;
+    }
+}
+
+@media (max-width: 992px){
+    .title{
+        text-align: center;
+    }
 }

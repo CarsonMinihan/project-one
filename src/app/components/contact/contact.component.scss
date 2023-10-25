@@ -1,0 +1,24 @@
+// h3{   
+//     position: relative;
+//     letter-spacing: 4px;
+//     text-transform: uppercase;
+//     line-height: 24px;
+//     width: auto;
+//     transform: rotate(-90deg);
+//     transform-origin: 100% 100%;
+//     float: right;
+//     margin: 8px; 
+//   }
+
+.menu{
+    position: absolute;
+    background-color: lightgray;
+    width: 400px;
+    height: 316px;
+    border-radius: 20px;
+    border: 2px solid black;
+    left: 50%; 
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -158px;
+}
