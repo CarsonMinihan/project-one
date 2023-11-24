@@ -8,6 +8,10 @@
     cursor: pointer;
 }
 
+.button:hover{
+    color: gray;
+}
+
 .sticky{
     // position: sticky;
     z-index: 100;
